@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Nexus: Journal of Multidisciplinary Research and Innovation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Peer-reviewed, open access multidisciplinary journal advancing rigorous, socially relevant research.">
+  <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css">
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color: #222; line-height: 1.6; }
+    header { padding: 24px; background: #0f172a; color: #fff; }
+    nav a { color: #fff; margin-right: 16px; text-decoration: none; }
+    .container { max-width: 980px; margin: 0 auto; padding: 24px; }
+    .cta { background: #f1f5f9; padding: 16px; border-radius: 8px; }
+    footer { background: #111827; color: #9ca3af; padding: 24px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+    h1, h2 { margin-top: 0; }
+    .btn { display: inline-block; padding: 10px 14px; background: #2563eb; color: #fff; border-radius: 6px; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Nexus: Journal of Multidisciplinary Research and Innovation</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="aims-scope.html">Aims & Scope</a>
+        <a href="authors.html">Instructions for Authors</a>
+        <a href="ethics.html">Ethics & Policies</a>
+        <a href="editorial-board.html">Editorial Board</a>
+        <a href="cfp.html">Call for Papers</a>
+        <a href="current.html">Current Issue</a>
+        <a href="archives.html">Archives</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="cta">
+      <h2>Submit to the Inaugural Issue</h2>
+      <p>We invite original research, reviews, case studies, and short communications across disciplines. Double-blind peer review. DOIs assigned upon publication.</p>
+      <a class="btn" href="submit.html">Submit Manuscript</a>
+    </section>
+
+    <section>
+      <h2>About the Journal</h2>
+      <p>Nexus is a peer-reviewed, open access journal fostering high-quality scholarship across sciences, social sciences, humanities, commerce, management, education, and technology. We emphasize interdisciplinary approaches and societal impact.</p>
+    </section>
+
+    <section class="grid">
+      <div>
+        <h3>Ethics & Integrity</h3>
+        <p>COPE-aligned policies on misconduct, plagiarism screening, corrections, and retractions ensure trust and transparency.</p>
+        <a href="ethics.html">Read policies →</a>
+      </div>
+      <div>
+        <h3>Peer Review</h3>
+        <p>Double-blind review with two independent experts. Initial screening within 7 days; first decision targeted in 4–6 weeks.</p>
+        <a href="peer-review.html">Process →</a>
+      </div>
+      <div>
+        <h3>Indexing & Identifiers</h3>
+        <p>Crossref DOIs, ISSN, OAI-PMH, and archival via PKP PN/LOCKSS. DOAJ application after initial issues.</p>
+        <a href="indexing.html">Learn more →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Nexus Journal. Open Access under CC BY.</p>
+      <p>Editorial Office: editor@yourjournal.org</p>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
